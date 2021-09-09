@@ -10,7 +10,7 @@ body {
   background-size: cover;
 }
 .container {
-  height: 80%;
+  height: 80vh;
 }
 h1 {
   color: white;
@@ -35,6 +35,11 @@ textarea {
   background-color: white;
   font-size: 2rem;
 }
+#btn-translate{
+    margin: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
 ::placeholder {
   font-size: 2rem;
   color: grey;
@@ -46,5 +51,5 @@ textarea {
 }
 i {
   color: white;
-  margin: 10rem 0.5rem;
+  margin: auto 0.5rem;
 }
