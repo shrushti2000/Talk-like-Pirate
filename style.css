@@ -1,0 +1,53 @@
+body {
+  background-image: url("images.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  text-align: center;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+textarea {
+  width: 50%;
+  height: 10vh;
+  display: block;
+  margin: 0 auto;
+  padding: 1 rem;
+  font-size: 2rem;
+}
+#output {
+  border: 1px solid black;
+  height: 10vh;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1 rem;
+  background-color: white;
+  font-size: 2rem;
+}
+::placeholder {
+  font-size: 2rem;
+  color: grey;
+}
+footer {
+  background-color: red;
+}
+.footer-heading {
+  color: black;
+  font-size: 1.5rem;
+}
+i {
+  color: grey;
+  size: 9rem;
+  margin: 0 0.5rem;
+}
+.fa {
+  size: 2rem;
+}
